@@ -1,0 +1,5 @@
+{
+  "name": "Document Link Analyzer",
+  "description": "An internal tool to analyze documents for duplicate hyperlinks. This application allows users to upload multiple documents, extracts all hyperlinks, and displays a list of links that appear more than once across all files.",
+  "requestFramePermissions": []
+}
