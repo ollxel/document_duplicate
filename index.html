@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document Link Analyzer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
+    <!-- Add Babel Standalone for in-browser transpilation of JSX/TS -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.1.1",
@@ -20,6 +22,7 @@
 </head>
   <body class="bg-slate-50 dark:bg-slate-900">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Changed type to "text/babel" for Babel to process it -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
   </body>
 </html>
