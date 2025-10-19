@@ -35,15 +35,12 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone https://github.com/your-username/document-link-analyzer.git
-    cd document-link-analyzer
+    git clone https://github.com/ollxel/document-duplicate.git
+    cd document-duplicate
     ```
 
 2.  **Запустите локальный веб-сервер:**
-    Приложение должно быть запущено через веб-сервер для корректной загрузки модулей (в частности, для скрипта-воркера PDF). Самый простой способ — использовать встроенный сервер Python.
-
     Откройте терминал в корневой папке проекта и выполните команду:
-
     ```bash
     # Для Python 3
     python3 -m http.server
